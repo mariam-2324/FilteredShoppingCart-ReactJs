@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Remove text-decoration from the Link and all elements inside it */
+.no-underline,
+.no-underline-all,
+.no-underline-all * {
+  text-decoration: none !important;
+}
