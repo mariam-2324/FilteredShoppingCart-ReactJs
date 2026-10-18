@@ -6,7 +6,7 @@ A modern, fast, and interactive E-Commerce web application built with **React**,
 
 ## 📸 Visual Overview
 
-![E-Commerce Dashboard Preview](https://via.placeholder.com/1200x600/0d9488/ffffff?text=E-Commerce+Product+Catalog+%26+Filtering+Dashboard)  
+![E-Commerce Dashboard Preview](-FilteredShoppingCart-ReactJs-full.png)  
 *Figure 1: Main Product Storefront featuring real-time filtering, category selection, and price range controls.*
 
 ---
@@ -15,7 +15,7 @@ A modern, fast, and interactive E-Commerce web application built with **React**,
 
 ### 1. `index.js` (or `main.jsx`) – Application Bootstrapper
 
-This is the entry point of the React application where the root React component tree is mounted onto the HTML DOM.
+This is the entry point of the React application, where the root React component tree mounts to the HTML DOM.
 
 ```jsx
 import React from 'react';
@@ -124,7 +124,7 @@ export default App
 
 This component acts as the main shop page. It handles asynchronous data fetching, multi-criteria client-side state filtering, and card rendering.
 
-![Product Filtering Feature](https://via.placeholder.com/800x400/14b8a6/ffffff?text=Interactive+Filters+%28Search%2C+Category%2C+Price+Slider%29)  
+![Product Filtering Feature](filterFeature-EcommerceProducts.png)  
 *Figure 2: Real-time user controls for refining catalog results.*
 
 #### Code Implementation:
@@ -280,7 +280,7 @@ export default Ecommerce
 
 Fetches and displays detailed information for a single product based on the route parameter `:id`.
 
-![Product Detail View](https://via.placeholder.com/800x400/0f766e/ffffff?text=Single+Product+Detail+Page)  
+![Product Detail View](singleProduct-EcommerceProducts.png)  
 *Figure 3: Dedicated detailed view driven by dynamic URL parameter fetching.*
 
 #### Code Implementation:
